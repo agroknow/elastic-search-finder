@@ -971,11 +971,11 @@ jQuery.ajax({
                {
                if(i!==length-1)
                {
-               keywordsToEmbed +="<a class=\"secondary\" href=\"elastic-listing.html?query="+data.languageBlocks.en.keywords[i]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
+               keywordsToEmbed +="<a class=\"secondary\" href=\"listing.html?query="+data.languageBlocks.en.keywords[i]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
                }
                else
                {
-               keywordsToEmbed +="<a class=\"secondary last\" href=\"elastic-listing.html?query="+data.languageBlocks.en.keywords[i].split(" ")[0]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
+               keywordsToEmbed +="<a class=\"secondary last\" href=\"listing.html?query="+data.languageBlocks.en.keywords[i].split(" ")[0]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
                }
                }
                
@@ -988,7 +988,7 @@ jQuery.ajax({
                                             div({cls:'floatleft'},
     div({cls:'line keywords'}, span("Keywords:"), keywordsToEmbed /*item.keywords*/)),
                                             div({cls:'floatright'},
-    div({cls:'line alignright'}, a({href:"elastic-item.html?id="+data.elasticID, cls:'moreinfo'}, "More Info")))))))});
+    div({cls:'line alignright'}, a({href:"item.html?id="+data.elasticID, cls:'moreinfo'}, "More Info")))))))});
                  
                      
 
@@ -1006,11 +1006,11 @@ jQuery.ajax({
                                    {
                                    if(i!==length-1)
                                    {
-                                   keywordsToEmbed +="<a class=\"secondary\" href=\"elastic-listing.html?query="+data.languageBlocks.en.keywords[i]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
+                                   keywordsToEmbed +="<a class=\"secondary\" href=\"listing.html?query="+data.languageBlocks.en.keywords[i]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
                                    }
                                    else
                                    {
-                                   keywordsToEmbed +="<a class=\"secondary last\" href=\"elastic-listing.html?query="+data.languageBlocks.en.keywords[i].split(" ")[0]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
+                                   keywordsToEmbed +="<a class=\"secondary last\" href=\"listing.html?query="+data.languageBlocks.en.keywords[i].split(" ")[0]+"\">&nbsp"+data.languageBlocks.en.keywords[i]+"</a>"
                                    }
                                    }
                                    
@@ -1021,7 +1021,7 @@ jQuery.ajax({
                                                   section(p({cls:'item-intro-desc'}, data.languageBlocks.en.description),
                                                           aside({cls:'clearfix'},
                                                                 div({cls:'floatright'},
-                                                                    div({cls:'line alignright'}, a({href:"elastic-item.html?id="+data.elasticID, cls:'moreinfo'}, "More Info")))))))});
+                                                                    div({cls:'line alignright'}, a({href:"item.html?id="+data.elasticID, cls:'moreinfo'}, "More Info")))))))});
                      
  
  
